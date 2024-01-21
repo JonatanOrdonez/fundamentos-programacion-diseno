@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: #132117;
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.banner {
+    height: 500px;
+}
+
+.banner__imagen {
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+}
+
+.banner__titulo {
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    top: -250px;
+    width: 300px;
+    left: 5vw;
+}
+
+.banner__descripcion {
+    font-size: 1rem;
+    width: 350px;
+    color: white;
+    position: relative;
+    top: -230px;
+    left: 5vw;
+}
+
+.contenido {
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.contenido__titulo {
+    font-size: 1.2rem;
+    color: white
+}
+
+.peliculas {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.pelicula {
+    display: flex;
+    flex-direction: column;
+}
+
+.pelicula__imagen {
+    width: 150px;
+    height: 250px;
+}
+
+.pelicula__valoracion {
+    display: flex;
+    justify-content: center;
+    margin: .5rem;
+}

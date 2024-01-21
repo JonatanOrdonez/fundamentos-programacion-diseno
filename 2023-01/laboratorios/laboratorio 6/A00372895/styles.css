@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin:0;
+}
+
+.contenedor{
+    border:2px solid blue;
+    width:500px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    height: 300px;
+    overflow-y:auto;
+}
+
+.tarea{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0.2rem 0;
+    
+}
+
+.tarea-completada {
+    border:2px solid green;
+}
+
+.tarea-pendiente{
+    border:2px solid red;
+}

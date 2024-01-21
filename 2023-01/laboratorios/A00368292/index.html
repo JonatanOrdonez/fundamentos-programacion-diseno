@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Muro de Facebook jv</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Muro de Facebook</h1>
+
+    <div class="comment-box">
+      <textarea id="comment-text" placeholder="Escribe un comentario"></textarea>
+      <button id="comment-btn" class="disabled">Publicar</button>
+    </div>
+
+    <div class="posts">
+      
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>¿Estás seguro?</h2>
+      <p>Si cierras este modal, perderás todo el texto que hayas escrito.</p>
+      <button id="cancel-btn" class="cancel">Cancelar</button>
+      <button id="discard-btn" class="discard">Descartar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

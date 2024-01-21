@@ -1,0 +1,39 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    background: rgb(31, 213, 226);
+    margin: 0.8em 35em 0 35em;
+}
+
+.bloque2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    background: gray;
+    margin: 0.8em 35em 0 35em;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}

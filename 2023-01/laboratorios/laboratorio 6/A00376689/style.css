@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.contenedor-tareas {
+    overflow-y: auto;
+    align-items: center;
+    place-content: center;
+    align-content: center;
+    margin-top: 25px;
+    width: 300px;
+    height: 400px;
+   
+}
+
+.tareaCompleta {
+    background-color: rgb(145, 149, 155);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    margin-bottom: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.tareaIncompleta {
+    background-color: rgb(93, 161, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    margin-bottom: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    display: grid;
+    place-content: center; 
+}
