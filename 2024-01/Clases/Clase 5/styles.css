@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.fuente {
+    color: #e8ca05;
+    font-size: 3rem;
+}
+
+#parrafo {
+    color: red;
+}
+
+.cuadrito {
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+    padding: 1rem 1rem;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+
+.cuadrito2 {
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+    transition: 1s ease-out;
+}
+
+.cuadrito2:hover {
+    transition: 1s ease-in;
+    background-color: green;
+}
