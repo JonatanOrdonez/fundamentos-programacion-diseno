@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: .1rem solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor__cajita {
+    border: .1rem solid orange;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor__cajita--relativo {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.contenedor__cajita--absoluto {
+    position: absolute;
+}
+
+.contenedor__cajita--azul {
+    background-color: blue;
+    z-index: 1;
+}
+
+.contenedor__cajita--verde {
+    background-color: green;
+    z-index: 2;
+    top: 50px;
+    left: 500px;
+}
