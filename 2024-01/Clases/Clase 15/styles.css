@@ -1,0 +1,12 @@
+.texto--rojo {
+    color: red;
+}
+
+.texto--verde {
+    color: green;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+}
