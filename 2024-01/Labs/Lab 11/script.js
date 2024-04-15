@@ -1,18 +1,12 @@
 const agregarPersonaje = (nombre, imagen) => {
   const contenedor = document.getElementById("personajes");
+
   const personaje = document.createElement("div");
-  personaje.classList.add("personaje");
-
-  const nombreElement = document.createElement("h5");
-  nombreElement.classList.add("personaje__nombre");
-  nombreElement.innerHTML = nombre;
-
-  const imagenElement = document.createElement("img");
-  imagenElement.classList.add("personaje__imagen");
-  imagenElement.src = imagen;
-
-  personaje.appendChild(nombreElement);
-  personaje.appendChild(imagenElement);
+  personaje.innerHTML = `
+  <div class="personaje">
+    <h5 class="personaje__nombre">${nombre}</h5>
+    <img class="personaje__imagen" src="${imagen}" />
+  </div>`;
 
   contenedor.appendChild(personaje);
 };
