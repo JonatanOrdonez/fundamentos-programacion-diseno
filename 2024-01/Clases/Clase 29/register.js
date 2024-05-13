@@ -1,13 +1,6 @@
-import { registrarUsuario, obtenerUsuarioEnSesion } from "./session.js";
+import { registrarUsuario } from "./session.js";
 
 const render = async () => {
-  const usuario = obtenerUsuarioEnSesion();
-
-  if (usuario) {
-    window.location.href = document.referrer;
-    return;
-  }
-
   const form = document.querySelector("#register");
 
   form.addEventListener("submit", (e) => {

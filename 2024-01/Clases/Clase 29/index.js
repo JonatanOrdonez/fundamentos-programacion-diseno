@@ -1,13 +1,6 @@
-import { iniciarSesion, obtenerUsuarioEnSesion } from "./session.js";
+import { iniciarSesion } from "./session.js";
 
 const render = async () => {
-  const usuario = obtenerUsuarioEnSesion();
-
-  if (usuario) {
-    window.location.href = document.referrer;
-    return;
-  }
-
   const form = document.querySelector("#login");
 
   form.addEventListener("submit", (e) => {

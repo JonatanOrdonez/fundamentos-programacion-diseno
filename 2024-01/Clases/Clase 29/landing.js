@@ -1,8 +1,4 @@
-import {
-  obtenerUsuarioEnSesion,
-  cerrarSesion,
-  obtenerUsuarioEnSesion,
-} from "./session.js";
+import { obtenerUsuarioEnSesion, cerrarSesion } from "./session.js";
 
 const render = async () => {
   const usuario = obtenerUsuarioEnSesion();
